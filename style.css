@@ -10,7 +10,7 @@
   }
   
   .nav-link:hover {
-    color: #ffc107 !important; /* Bootstrap warning color */
+    color: #0d6efd !important; /* Bootstrap warning color */
   }
   @keyframes fadeInUp {
     0% {
@@ -226,5 +226,115 @@
     background-color: #0d6efd;
     color: #ffffff;
   }
+  .blog-section {
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
+  }
+  .blog-heading {
+    color: #212529; /* Dark text */
+  }
   
+  .blog-subheading {
+    color: #6c757d; /* Medium-dark muted gray */
+  }
+  
+  .post-card.glass {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    color: #212529;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-6px);
+    background: #fefefe;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  }
+  
+  .blog-section {
+    /* background: linear-gradient(to bottom, #f4f4f4, #eaeaea); */
+    /* background: linear-gradient(145deg, #fdfdff, #f0f4ff)*/
+     background-color: #ffffff;
+  }
+  
+  .blog-heading {
+    color: #212529;
+  }
+  
+  .blog-subheading {
+    color: #6c757d;
+  }
+  
+  .post-card.glass {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    color: #212529;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-6px);
+    background: #fefefe;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  }
+  
+  .blog-title {
+    color: #212529;
+  }
+  
+  .blog-summary {
+    color: #495057;
+  }
+  
+  .blog-link {
+    color: #0d6efd;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  
+  .blog-link:hover {
+    color: #0a58ca;
+  }
+  
+  .btn-outline-primary {
+    border: 1px solid #0d6efd;
+    color: #0d6efd;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+  }
+  
+  /* Contact section */
+
+
+  .connect-section {
+    background: linear-gradient(135deg, #2c3e50, #34495e, #1c1c1c);
+    color: white;
+  }
+  
+  .connect-link {
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .connect-link:hover {
+    color: #0d6efd;
+    transform: translateY(-2px);
+    text-decoration: underline;
+  }
+  
+  .connect-section h2 {
+    font-size: 2rem;
+  }
+  
+  .connect-section p {
+    color: #d1d1d1;
+  }
   
