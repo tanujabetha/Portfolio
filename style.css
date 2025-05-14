@@ -8,9 +8,13 @@
     margin-left: 1rem;
     transition: color 0.3s ease;
   }
+  .timeline-content p {
+    text-align: left;
+  }
+  
   
   .nav-link:hover {
-    color: #0d6efd !important; /* Bootstrap warning color */
+    color: #d7b756 !important; /* Bootstrap warning color */
   }
   @keyframes fadeInUp {
     0% {
@@ -282,6 +286,13 @@
   .blog-title {
     color: #212529;
   }
+
+  .blog-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #212529; /* Dark grey */
+    letter-spacing: -0.5px;
+  }S
   
   .blog-summary {
     color: #495057;
@@ -310,31 +321,30 @@
   /* Contact section */
 
 
-  .connect-section {
-    background: linear-gradient(135deg, #2c3e50, #34495e, #1c1c1c);
-    color: white;
-  }
-  
-  .connect-link {
-    color: #ffffff;
-    font-size: 1rem;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease;
-  }
-  
-  .connect-link:hover {
-    color: #0d6efd;
-    transform: translateY(-2px);
-    text-decoration: underline;
-  }
-  
-  .connect-section h2 {
-    font-size: 2rem;
-  }
-  
-  .connect-section p {
-    color: #d1d1d1;
-  }
-  
+ .connect-section {
+  background: linear-gradient(135deg, #2c3e50, #34495e, #1c1c1c);
+  color: white;
+}
+
+.connect-link {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.connect-link:hover {
+  color: #0d6efd;
+  transform: translateY(-2px);
+  text-decoration: underline;
+}
+
+.connect-section h2 {
+  font-size: 2rem;
+}
+
+.connect-section p {
+  color: #d1d1d1;
+}
